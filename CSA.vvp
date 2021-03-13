@@ -1,0 +1,160 @@
+#! /usr/bin/vvp
+:ivl_version "10.3 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 9;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x560d88769490 .scope module, "CSA_tb" "CSA_tb" 2 7;
+ .timescale -9 -9;
+v0x560d88781820_0 .var "clk", 0 0;
+v0x560d887818e0_0 .var "rst", 0 0;
+v0x560d887819a0_0 .net "sum", 0 0, v0x560d88780110_0;  1 drivers
+v0x560d88781a90_0 .var "x", 0 0;
+v0x560d88781b80_0 .var "y", 0 0;
+S_0x560d88769610 .scope module, "uut" "CSA" 2 22, 3 6 0, S_0x560d88769490;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "clk"
+    .port_info 1 /INPUT 1 "rst"
+    .port_info 2 /INPUT 1 "x"
+    .port_info 3 /INPUT 1 "y"
+    .port_info 4 /OUTPUT 1 "sum"
+v0x560d88781150_0 .net "clk", 0 0, v0x560d88781820_0;  1 drivers
+v0x560d88781210_0 .net "dff_carry_out", 0 0, v0x560d8877fb60_0;  1 drivers
+v0x560d88781320_0 .net "fa_cout", 0 0, L_0x560d88781cc0;  1 drivers
+v0x560d88781410_0 .net "fa_sum", 0 0, L_0x560d88781d60;  1 drivers
+v0x560d88781500_0 .net "rst", 0 0, v0x560d887818e0_0;  1 drivers
+v0x560d88781640_0 .net "sum", 0 0, v0x560d88780110_0;  alias, 1 drivers
+v0x560d887816e0_0 .net "x", 0 0, v0x560d88781a90_0;  1 drivers
+v0x560d88781780_0 .net "y", 0 0, v0x560d88781b80_0;  1 drivers
+S_0x560d88765e40 .scope module, "dff_carry" "dff" 3 13, 4 3 0, S_0x560d88769610;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "d"
+    .port_info 1 /INPUT 1 "rst"
+    .port_info 2 /INPUT 1 "clk"
+    .port_info 3 /OUTPUT 1 "q"
+v0x560d88756ea0_0 .net "clk", 0 0, v0x560d88781820_0;  alias, 1 drivers
+v0x560d88756f40_0 .net "d", 0 0, L_0x560d88781cc0;  alias, 1 drivers
+v0x560d8877fb60_0 .var "q", 0 0;
+v0x560d8877fc00_0 .net "rst", 0 0, v0x560d887818e0_0;  alias, 1 drivers
+E_0x560d887684d0 .event posedge, v0x560d8877fc00_0, v0x560d88756ea0_0;
+S_0x560d8877fd40 .scope module, "dff_sum" "dff" 3 12, 4 3 0, S_0x560d88769610;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "d"
+    .port_info 1 /INPUT 1 "rst"
+    .port_info 2 /INPUT 1 "clk"
+    .port_info 3 /OUTPUT 1 "q"
+v0x560d8877ffa0_0 .net "clk", 0 0, v0x560d88781820_0;  alias, 1 drivers
+v0x560d88780070_0 .net "d", 0 0, L_0x560d88781d60;  alias, 1 drivers
+v0x560d88780110_0 .var "q", 0 0;
+v0x560d887801e0_0 .net "rst", 0 0, v0x560d887818e0_0;  alias, 1 drivers
+S_0x560d88780340 .scope module, "fa" "fulladder" 3 10, 5 5 0, S_0x560d88769610;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "X"
+    .port_info 1 /INPUT 1 "Y"
+    .port_info 2 /INPUT 1 "Ci"
+    .port_info 3 /OUTPUT 1 "S"
+    .port_info 4 /OUTPUT 1 "Co"
+v0x560d887805c0_0 .net "Ci", 0 0, v0x560d8877fb60_0;  alias, 1 drivers
+v0x560d88780690_0 .net "Co", 0 0, L_0x560d88781cc0;  alias, 1 drivers
+v0x560d88780760_0 .net "S", 0 0, L_0x560d88781d60;  alias, 1 drivers
+v0x560d88780860_0 .net "X", 0 0, v0x560d88781a90_0;  alias, 1 drivers
+v0x560d88780900_0 .net "Y", 0 0, v0x560d88781b80_0;  alias, 1 drivers
+L_0x7f236e268060 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x560d887809f0_0 .net *"_s10", 0 0, L_0x7f236e268060;  1 drivers
+v0x560d88780a90_0 .net *"_s11", 1 0, L_0x560d88782060;  1 drivers
+v0x560d88780b70_0 .net *"_s13", 1 0, L_0x560d88782210;  1 drivers
+L_0x7f236e2680a8 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x560d88780c50_0 .net *"_s16", 0 0, L_0x7f236e2680a8;  1 drivers
+v0x560d88780d30_0 .net *"_s17", 1 0, L_0x560d88782340;  1 drivers
+v0x560d88780e10_0 .net *"_s3", 1 0, L_0x560d88781e50;  1 drivers
+L_0x7f236e268018 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x560d88780ef0_0 .net *"_s6", 0 0, L_0x7f236e268018;  1 drivers
+v0x560d88780fd0_0 .net *"_s7", 1 0, L_0x560d88781f40;  1 drivers
+L_0x560d88781cc0 .part L_0x560d88782340, 1, 1;
+L_0x560d88781d60 .part L_0x560d88782340, 0, 1;
+L_0x560d88781e50 .concat [ 1 1 0 0], v0x560d88781a90_0, L_0x7f236e268018;
+L_0x560d88781f40 .concat [ 1 1 0 0], v0x560d88781b80_0, L_0x7f236e268060;
+L_0x560d88782060 .arith/sum 2, L_0x560d88781e50, L_0x560d88781f40;
+L_0x560d88782210 .concat [ 1 1 0 0], v0x560d8877fb60_0, L_0x7f236e2680a8;
+L_0x560d88782340 .arith/sum 2, L_0x560d88782060, L_0x560d88782210;
+    .scope S_0x560d8877fd40;
+T_0 ;
+    %wait E_0x560d887684d0;
+    %load/vec4 v0x560d887801e0_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_0.0, 8;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x560d88780110_0, 0;
+    %jmp T_0.1;
+T_0.0 ;
+    %load/vec4 v0x560d88780070_0;
+    %assign/vec4 v0x560d88780110_0, 0;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0;
+    .scope S_0x560d88765e40;
+T_1 ;
+    %wait E_0x560d887684d0;
+    %load/vec4 v0x560d8877fc00_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_1.0, 8;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x560d8877fb60_0, 0;
+    %jmp T_1.1;
+T_1.0 ;
+    %load/vec4 v0x560d88756f40_0;
+    %assign/vec4 v0x560d8877fb60_0, 0;
+T_1.1 ;
+    %jmp T_1;
+    .thread T_1;
+    .scope S_0x560d88769490;
+T_2 ;
+    %vpi_call 2 33 "$dumpfile", "CSA_tb.vcd" {0 0 0};
+    %vpi_call 2 34 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x560d88769490 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x560d887818e0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x560d887818e0_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x560d887818e0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x560d88781a90_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x560d88781b80_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x560d88781a90_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x560d88781b80_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x560d88781a90_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x560d88781b80_0, 0, 1;
+    %delay 1000, 0;
+    %vpi_call 2 52 "$finish" {0 0 0};
+    %end;
+    .thread T_2;
+    .scope S_0x560d88769490;
+T_3 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x560d88781820_0, 0, 1;
+T_3.0 ;
+    %delay 10, 0;
+    %load/vec4 v0x560d88781820_0;
+    %inv;
+    %store/vec4 v0x560d88781820_0, 0, 1;
+    %jmp T_3.0;
+    %end;
+    .thread T_3;
+# The file index is used to find the file name in the following table.
+:file_names 6;
+    "N/A";
+    "<interactive>";
+    "CSA_tb.v";
+    "CSA.v";
+    "./dff.v";
+    "./fulladder.v";

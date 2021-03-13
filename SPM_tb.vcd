@@ -1,0 +1,1437 @@
+$date
+	Sun Mar 14 01:02:16 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module SPM_tb $end
+$var wire 1 ! done $end
+$var wire 64 " P [63:0] $end
+$var reg 32 # MC [31:0] $end
+$var reg 32 $ MP [31:0] $end
+$var reg 1 % clk $end
+$var reg 1 & rst $end
+$var reg 1 ' start $end
+$scope module uut $end
+$var wire 32 ( MC [31:0] $end
+$var wire 32 ) MP [31:0] $end
+$var wire 64 * P [63:0] $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ' start $end
+$var wire 1 + unique_bit $end
+$var wire 32 , internal_sum [31:0] $end
+$var wire 64 - final_product [63:0] $end
+$var wire 32 . and_out [31:0] $end
+$var reg 8 / count [7:0] $end
+$var reg 1 ! done $end
+$var reg 32 0 serial_mp [31:0] $end
+$scope begin genblk1[1] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 1 x $end
+$var wire 1 2 y $end
+$var wire 1 3 sum $end
+$var wire 1 4 fa_sum $end
+$var wire 1 5 fa_cout $end
+$var wire 1 6 dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 5 d $end
+$var reg 1 6 q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 4 d $end
+$var reg 1 3 q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 6 Ci $end
+$var wire 1 1 X $end
+$var wire 1 2 Y $end
+$var wire 1 4 S $end
+$var wire 1 5 Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 7 x $end
+$var wire 1 8 y $end
+$var wire 1 9 sum $end
+$var wire 1 : fa_sum $end
+$var wire 1 ; fa_cout $end
+$var wire 1 < dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ; d $end
+$var reg 1 < q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 : d $end
+$var reg 1 9 q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 < Ci $end
+$var wire 1 7 X $end
+$var wire 1 8 Y $end
+$var wire 1 : S $end
+$var wire 1 ; Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[3] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 = x $end
+$var wire 1 > y $end
+$var wire 1 ? sum $end
+$var wire 1 @ fa_sum $end
+$var wire 1 A fa_cout $end
+$var wire 1 B dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 A d $end
+$var reg 1 B q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 @ d $end
+$var reg 1 ? q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 B Ci $end
+$var wire 1 = X $end
+$var wire 1 > Y $end
+$var wire 1 @ S $end
+$var wire 1 A Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[4] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 C x $end
+$var wire 1 D y $end
+$var wire 1 E sum $end
+$var wire 1 F fa_sum $end
+$var wire 1 G fa_cout $end
+$var wire 1 H dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 G d $end
+$var reg 1 H q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 F d $end
+$var reg 1 E q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 H Ci $end
+$var wire 1 C X $end
+$var wire 1 D Y $end
+$var wire 1 F S $end
+$var wire 1 G Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[5] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 I x $end
+$var wire 1 J y $end
+$var wire 1 K sum $end
+$var wire 1 L fa_sum $end
+$var wire 1 M fa_cout $end
+$var wire 1 N dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 M d $end
+$var reg 1 N q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 L d $end
+$var reg 1 K q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 N Ci $end
+$var wire 1 I X $end
+$var wire 1 J Y $end
+$var wire 1 L S $end
+$var wire 1 M Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[6] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 O x $end
+$var wire 1 P y $end
+$var wire 1 Q sum $end
+$var wire 1 R fa_sum $end
+$var wire 1 S fa_cout $end
+$var wire 1 T dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 S d $end
+$var reg 1 T q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 R d $end
+$var reg 1 Q q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 T Ci $end
+$var wire 1 O X $end
+$var wire 1 P Y $end
+$var wire 1 R S $end
+$var wire 1 S Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[7] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 U x $end
+$var wire 1 V y $end
+$var wire 1 W sum $end
+$var wire 1 X fa_sum $end
+$var wire 1 Y fa_cout $end
+$var wire 1 Z dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 Y d $end
+$var reg 1 Z q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 X d $end
+$var reg 1 W q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 Z Ci $end
+$var wire 1 U X $end
+$var wire 1 V Y $end
+$var wire 1 X S $end
+$var wire 1 Y Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[8] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 [ x $end
+$var wire 1 \ y $end
+$var wire 1 ] sum $end
+$var wire 1 ^ fa_sum $end
+$var wire 1 _ fa_cout $end
+$var wire 1 ` dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 _ d $end
+$var reg 1 ` q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ^ d $end
+$var reg 1 ] q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 ` Ci $end
+$var wire 1 [ X $end
+$var wire 1 \ Y $end
+$var wire 1 ^ S $end
+$var wire 1 _ Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[9] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 a x $end
+$var wire 1 b y $end
+$var wire 1 c sum $end
+$var wire 1 d fa_sum $end
+$var wire 1 e fa_cout $end
+$var wire 1 f dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 e d $end
+$var reg 1 f q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 d d $end
+$var reg 1 c q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 f Ci $end
+$var wire 1 a X $end
+$var wire 1 b Y $end
+$var wire 1 d S $end
+$var wire 1 e Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[10] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 g x $end
+$var wire 1 h y $end
+$var wire 1 i sum $end
+$var wire 1 j fa_sum $end
+$var wire 1 k fa_cout $end
+$var wire 1 l dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 k d $end
+$var reg 1 l q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 j d $end
+$var reg 1 i q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 l Ci $end
+$var wire 1 g X $end
+$var wire 1 h Y $end
+$var wire 1 j S $end
+$var wire 1 k Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[11] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 m x $end
+$var wire 1 n y $end
+$var wire 1 o sum $end
+$var wire 1 p fa_sum $end
+$var wire 1 q fa_cout $end
+$var wire 1 r dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 q d $end
+$var reg 1 r q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 p d $end
+$var reg 1 o q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 r Ci $end
+$var wire 1 m X $end
+$var wire 1 n Y $end
+$var wire 1 p S $end
+$var wire 1 q Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[12] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 s x $end
+$var wire 1 t y $end
+$var wire 1 u sum $end
+$var wire 1 v fa_sum $end
+$var wire 1 w fa_cout $end
+$var wire 1 x dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 w d $end
+$var reg 1 x q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 v d $end
+$var reg 1 u q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 x Ci $end
+$var wire 1 s X $end
+$var wire 1 t Y $end
+$var wire 1 v S $end
+$var wire 1 w Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[13] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 y x $end
+$var wire 1 z y $end
+$var wire 1 { sum $end
+$var wire 1 | fa_sum $end
+$var wire 1 } fa_cout $end
+$var wire 1 ~ dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 } d $end
+$var reg 1 ~ q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 | d $end
+$var reg 1 { q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 ~ Ci $end
+$var wire 1 y X $end
+$var wire 1 z Y $end
+$var wire 1 | S $end
+$var wire 1 } Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[14] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 !" x $end
+$var wire 1 "" y $end
+$var wire 1 #" sum $end
+$var wire 1 $" fa_sum $end
+$var wire 1 %" fa_cout $end
+$var wire 1 &" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 %" d $end
+$var reg 1 &" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 $" d $end
+$var reg 1 #" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 &" Ci $end
+$var wire 1 !" X $end
+$var wire 1 "" Y $end
+$var wire 1 $" S $end
+$var wire 1 %" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[15] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 '" x $end
+$var wire 1 (" y $end
+$var wire 1 )" sum $end
+$var wire 1 *" fa_sum $end
+$var wire 1 +" fa_cout $end
+$var wire 1 ," dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 +" d $end
+$var reg 1 ," q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 *" d $end
+$var reg 1 )" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 ," Ci $end
+$var wire 1 '" X $end
+$var wire 1 (" Y $end
+$var wire 1 *" S $end
+$var wire 1 +" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[16] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 -" x $end
+$var wire 1 ." y $end
+$var wire 1 /" sum $end
+$var wire 1 0" fa_sum $end
+$var wire 1 1" fa_cout $end
+$var wire 1 2" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 1" d $end
+$var reg 1 2" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 0" d $end
+$var reg 1 /" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 2" Ci $end
+$var wire 1 -" X $end
+$var wire 1 ." Y $end
+$var wire 1 0" S $end
+$var wire 1 1" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[17] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 3" x $end
+$var wire 1 4" y $end
+$var wire 1 5" sum $end
+$var wire 1 6" fa_sum $end
+$var wire 1 7" fa_cout $end
+$var wire 1 8" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 7" d $end
+$var reg 1 8" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 6" d $end
+$var reg 1 5" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 8" Ci $end
+$var wire 1 3" X $end
+$var wire 1 4" Y $end
+$var wire 1 6" S $end
+$var wire 1 7" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[18] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 9" x $end
+$var wire 1 :" y $end
+$var wire 1 ;" sum $end
+$var wire 1 <" fa_sum $end
+$var wire 1 =" fa_cout $end
+$var wire 1 >" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 =" d $end
+$var reg 1 >" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 <" d $end
+$var reg 1 ;" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 >" Ci $end
+$var wire 1 9" X $end
+$var wire 1 :" Y $end
+$var wire 1 <" S $end
+$var wire 1 =" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[19] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ?" x $end
+$var wire 1 @" y $end
+$var wire 1 A" sum $end
+$var wire 1 B" fa_sum $end
+$var wire 1 C" fa_cout $end
+$var wire 1 D" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 C" d $end
+$var reg 1 D" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 B" d $end
+$var reg 1 A" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 D" Ci $end
+$var wire 1 ?" X $end
+$var wire 1 @" Y $end
+$var wire 1 B" S $end
+$var wire 1 C" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[20] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 E" x $end
+$var wire 1 F" y $end
+$var wire 1 G" sum $end
+$var wire 1 H" fa_sum $end
+$var wire 1 I" fa_cout $end
+$var wire 1 J" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 I" d $end
+$var reg 1 J" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 H" d $end
+$var reg 1 G" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 J" Ci $end
+$var wire 1 E" X $end
+$var wire 1 F" Y $end
+$var wire 1 H" S $end
+$var wire 1 I" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[21] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 K" x $end
+$var wire 1 L" y $end
+$var wire 1 M" sum $end
+$var wire 1 N" fa_sum $end
+$var wire 1 O" fa_cout $end
+$var wire 1 P" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 O" d $end
+$var reg 1 P" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 N" d $end
+$var reg 1 M" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 P" Ci $end
+$var wire 1 K" X $end
+$var wire 1 L" Y $end
+$var wire 1 N" S $end
+$var wire 1 O" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[22] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 Q" x $end
+$var wire 1 R" y $end
+$var wire 1 S" sum $end
+$var wire 1 T" fa_sum $end
+$var wire 1 U" fa_cout $end
+$var wire 1 V" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 U" d $end
+$var reg 1 V" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 T" d $end
+$var reg 1 S" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 V" Ci $end
+$var wire 1 Q" X $end
+$var wire 1 R" Y $end
+$var wire 1 T" S $end
+$var wire 1 U" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[23] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 W" x $end
+$var wire 1 X" y $end
+$var wire 1 Y" sum $end
+$var wire 1 Z" fa_sum $end
+$var wire 1 [" fa_cout $end
+$var wire 1 \" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 [" d $end
+$var reg 1 \" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 Z" d $end
+$var reg 1 Y" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 \" Ci $end
+$var wire 1 W" X $end
+$var wire 1 X" Y $end
+$var wire 1 Z" S $end
+$var wire 1 [" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[24] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ]" x $end
+$var wire 1 ^" y $end
+$var wire 1 _" sum $end
+$var wire 1 `" fa_sum $end
+$var wire 1 a" fa_cout $end
+$var wire 1 b" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 a" d $end
+$var reg 1 b" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 `" d $end
+$var reg 1 _" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 b" Ci $end
+$var wire 1 ]" X $end
+$var wire 1 ^" Y $end
+$var wire 1 `" S $end
+$var wire 1 a" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[25] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 c" x $end
+$var wire 1 d" y $end
+$var wire 1 e" sum $end
+$var wire 1 f" fa_sum $end
+$var wire 1 g" fa_cout $end
+$var wire 1 h" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 g" d $end
+$var reg 1 h" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 f" d $end
+$var reg 1 e" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 h" Ci $end
+$var wire 1 c" X $end
+$var wire 1 d" Y $end
+$var wire 1 f" S $end
+$var wire 1 g" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[26] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 i" x $end
+$var wire 1 j" y $end
+$var wire 1 k" sum $end
+$var wire 1 l" fa_sum $end
+$var wire 1 m" fa_cout $end
+$var wire 1 n" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 m" d $end
+$var reg 1 n" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 l" d $end
+$var reg 1 k" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 n" Ci $end
+$var wire 1 i" X $end
+$var wire 1 j" Y $end
+$var wire 1 l" S $end
+$var wire 1 m" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[27] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 o" x $end
+$var wire 1 p" y $end
+$var wire 1 q" sum $end
+$var wire 1 r" fa_sum $end
+$var wire 1 s" fa_cout $end
+$var wire 1 t" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 s" d $end
+$var reg 1 t" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 r" d $end
+$var reg 1 q" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 t" Ci $end
+$var wire 1 o" X $end
+$var wire 1 p" Y $end
+$var wire 1 r" S $end
+$var wire 1 s" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[28] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 u" x $end
+$var wire 1 v" y $end
+$var wire 1 w" sum $end
+$var wire 1 x" fa_sum $end
+$var wire 1 y" fa_cout $end
+$var wire 1 z" dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 y" d $end
+$var reg 1 z" q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 x" d $end
+$var reg 1 w" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 z" Ci $end
+$var wire 1 u" X $end
+$var wire 1 v" Y $end
+$var wire 1 x" S $end
+$var wire 1 y" Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[29] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 {" x $end
+$var wire 1 |" y $end
+$var wire 1 }" sum $end
+$var wire 1 ~" fa_sum $end
+$var wire 1 !# fa_cout $end
+$var wire 1 "# dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 !# d $end
+$var reg 1 "# q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ~" d $end
+$var reg 1 }" q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 "# Ci $end
+$var wire 1 {" X $end
+$var wire 1 |" Y $end
+$var wire 1 ~" S $end
+$var wire 1 !# Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[30] $end
+$scope module csa1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ## x $end
+$var wire 1 $# y $end
+$var wire 1 %# sum $end
+$var wire 1 &# fa_sum $end
+$var wire 1 '# fa_cout $end
+$var wire 1 (# dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 '# d $end
+$var reg 1 (# q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 &# d $end
+$var reg 1 %# q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 (# Ci $end
+$var wire 1 ## X $end
+$var wire 1 $# Y $end
+$var wire 1 &# S $end
+$var wire 1 '# Co $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module csa2 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 )# x $end
+$var wire 1 *# y $end
+$var wire 1 + sum $end
+$var wire 1 +# fa_sum $end
+$var wire 1 ,# fa_cout $end
+$var wire 1 -# dff_carry_out $end
+$scope module dff_carry $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ,# d $end
+$var reg 1 -# q $end
+$upscope $end
+$scope module dff_sum $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 +# d $end
+$var reg 1 + q $end
+$upscope $end
+$scope module fa $end
+$var wire 1 -# Ci $end
+$var wire 1 )# X $end
+$var wire 1 *# Y $end
+$var wire 1 +# S $end
+$var wire 1 ,# Co $end
+$upscope $end
+$upscope $end
+$scope module shifter1 $end
+$var wire 1 + bit $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 64 .# out [63:0] $end
+$upscope $end
+$scope module tcmp0 $end
+$var wire 1 /# A $end
+$var wire 1 % clk $end
+$var wire 1 0# or_out $end
+$var wire 1 & rst $end
+$var wire 1 1# xor_out $end
+$var wire 1 2# ff2_out $end
+$var wire 1 3# S $end
+$scope module dff1 $end
+$var wire 1 % clk $end
+$var wire 1 1# d $end
+$var wire 1 & rst $end
+$var reg 1 3# q $end
+$upscope $end
+$scope module dff2 $end
+$var wire 1 % clk $end
+$var wire 1 0# d $end
+$var wire 1 & rst $end
+$var reg 1 2# q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+03#
+02#
+x1#
+x0#
+x/#
+bx000000000000000000000000000000000000000000000000000000000000000 .#
+0-#
+x,#
+x+#
+z*#
+x)#
+0(#
+x'#
+x&#
+0%#
+0$#
+x##
+0"#
+x!#
+x~"
+0}"
+0|"
+x{"
+0z"
+xy"
+xx"
+0w"
+0v"
+xu"
+0t"
+xs"
+xr"
+0q"
+0p"
+xo"
+0n"
+xm"
+xl"
+0k"
+0j"
+xi"
+0h"
+xg"
+xf"
+0e"
+0d"
+xc"
+0b"
+xa"
+x`"
+0_"
+0^"
+x]"
+0\"
+x["
+xZ"
+0Y"
+0X"
+xW"
+0V"
+xU"
+xT"
+0S"
+0R"
+xQ"
+0P"
+xO"
+xN"
+0M"
+0L"
+xK"
+0J"
+xI"
+xH"
+0G"
+0F"
+xE"
+0D"
+xC"
+xB"
+0A"
+0@"
+x?"
+0>"
+x="
+x<"
+0;"
+0:"
+x9"
+08"
+x7"
+x6"
+05"
+04"
+x3"
+02"
+x1"
+x0"
+0/"
+0."
+x-"
+0,"
+x+"
+x*"
+0)"
+0("
+x'"
+0&"
+x%"
+x$"
+0#"
+0""
+x!"
+0~
+x}
+x|
+0{
+0z
+xy
+0x
+xw
+xv
+0u
+0t
+xs
+0r
+xq
+xp
+0o
+0n
+xm
+0l
+xk
+xj
+0i
+0h
+xg
+0f
+xe
+xd
+0c
+0b
+xa
+0`
+x_
+x^
+0]
+0\
+x[
+0Z
+xY
+xX
+0W
+0V
+xU
+0T
+xS
+xR
+0Q
+0P
+xO
+0N
+xM
+xL
+0K
+0J
+xI
+0H
+xG
+xF
+0E
+0D
+xC
+0B
+xA
+x@
+0?
+0>
+x=
+0<
+x;
+x:
+09
+08
+x7
+06
+x5
+x4
+03
+02
+x1
+bx 0
+b0 /
+bx .
+bx000000000000000000000000000000000000000000000000000000000000000 -
+b0z ,
+0+
+bx000000000000000000000000000000000000000000000000000000000000000 *
+bx )
+bx (
+0'
+1&
+0%
+bx $
+bx #
+bx000000000000000000000000000000000000000000000000000000000000000 "
+x!
+$end
+#10
+x$#
+x2
+x8
+x>
+xD
+xJ
+xP
+xV
+x\
+xb
+xh
+xn
+xt
+xz
+x""
+x("
+x."
+x4"
+x:"
+x@"
+xF"
+xL"
+xR"
+xX"
+x^"
+xd"
+xj"
+xp"
+xv"
+x|"
+x-#
+x+
+x2#
+x3#
+x6
+x3
+x<
+x9
+xB
+x?
+xH
+xE
+xN
+xK
+xT
+xQ
+xZ
+xW
+x`
+x]
+xf
+xc
+xl
+xi
+xr
+xo
+xx
+xu
+x~
+x{
+x&"
+x#"
+x,"
+x)"
+x2"
+x/"
+x8"
+x5"
+x>"
+x;"
+xD"
+xA"
+xJ"
+xG"
+xP"
+xM"
+xV"
+xS"
+x\"
+xY"
+xb"
+x_"
+xh"
+xe"
+xn"
+xk"
+xt"
+xq"
+xz"
+xw"
+x"#
+x}"
+x(#
+bxz ,
+x%#
+b1 /
+x4
+x5
+11
+1)#
+x&#
+x'#
+x~"
+x!#
+xx"
+xy"
+xr"
+xs"
+xl"
+xm"
+xf"
+xg"
+x`"
+xa"
+xZ"
+x["
+xT"
+xU"
+xN"
+xO"
+xH"
+xI"
+xB"
+xC"
+x<"
+x="
+x6"
+x7"
+x0"
+x1"
+x*"
+x+"
+x$"
+x%"
+x|
+x}
+xv
+xw
+xp
+xq
+xj
+xk
+xd
+xe
+x^
+x_
+xX
+xY
+xR
+xS
+xL
+xM
+xF
+xG
+x@
+xA
+x:
+x;
+x1#
+x0#
+0##
+0{"
+0u"
+0o"
+0i"
+0c"
+0]"
+0W"
+0Q"
+0K"
+0E"
+0?"
+09"
+03"
+0-"
+0'"
+0!"
+0y
+0s
+0m
+0g
+0a
+0[
+0U
+0O
+0I
+0C
+0=
+07
+0/#
+b11 .
+b0 "
+b0 *
+b0 -
+b0 .#
+b1 0
+0!
+1%
+1'
+b11 #
+b11 (
+b10 $
+b10 )
+0&
+#20
+0%
