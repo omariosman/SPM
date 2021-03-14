@@ -10,7 +10,7 @@ module shifter(input clk, input rst, input bit, output reg [63:0] out);
 
         
 
-        out = {bit, out[62:0]};
+        out = {bit, out[63:1]};
 
     end
 endmodule

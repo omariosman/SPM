@@ -36,18 +36,24 @@ module SPM_tb;
     $dumpfile("SPM_tb.vcd");
     $dumpvars(0, SPM_tb);
 	//Inputs initialization
-		clk = 0;
 		rst = 1;
-		start = 0;
-
-
-	//Wait for the reset
 		#10;
-        rst = 0;
 		MP = 2;
 		MC = 3;
 		start = 1;
-        #10 $finish;
+		#10;
+		rst = 0;
+		start = 0;
+		
+		
+		#10;
+		
+		
+		
+		#1320 $finish;
+
+
+
 
 	end
 
