@@ -19,12 +19,12 @@ module SPM(input clk, input rst, input [31:0] MP, input [31:0] MC, input start, 
         serial_mp = MP;
     end
 
-     always @( posedge start or posedge clk or posedge rst)begin
-        if (rst)
-        count<=0; 
-        else 
+     always @(posedge rst, posedge clk, posedge start)begin
+      if(rst) begin
+          count <= 0;
+      end else begin
         count<=count+1; 
-
+      end
         case (count)
         63: begin done=1; end
         default: done=0; 
@@ -33,38 +33,11 @@ module SPM(input clk, input rst, input [31:0] MP, input [31:0] MC, input start, 
 
     end
 
-    always@(posedge clk) begin
-        if (rst == 0) begin
-            serial_mp = serial_mp >> 1;
-        end
+    always@(posedge clk) begin    
+        if (rst == 0)  
+            serial_mp = serial_mp >> 1;      
     end
-/*
-    always@(posedge clk) begin
-        //if start
-        if (start) begin
 
-
-
-            serial_mp = MP;
-    
-            if (rst) begin
-                count = 0;
-                
-            end 
-            else begin
-                serial_mp <=  serial_mp >> 1;
-                count <= count + 1;
-                //$display("This is the count: %d", $signed(count));
-                case (count)
-                    63: done = 1;
-                    default: done = 0;
-                endcase
-            end
-
-
-        end
-    end
-*/
 
     
     genvar i;
